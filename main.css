@@ -12,7 +12,7 @@
 header {
   background-color: hsl(54, 27%, 64%);
   font-size: 1.2rem;
-  padding: 0.4em;
+  padding: 0.8em 4em;
 }
 
 .navbar {
@@ -39,5 +39,24 @@ a:visited {
 }
 
 a:hover {
-  color: hsl(161, 66%, 35%);;
+  color: hsl(161, 66%, 35%);
+}
+
+/* Hero */
+
+.hero {
+  color: hsl(12, 9%, 22%);
+  text-align: left;
+  padding: 2em;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.hero-text h1 {
+  margin-bottom: 1em;
 }
