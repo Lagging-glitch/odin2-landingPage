@@ -13,6 +13,11 @@ body {
   color: hsl(12, 9%, 22%);
 }
 
+h2 {
+  font-size: 2.3rem;
+  padding: 0.8em;
+}
+
 /* Nav Bar */
 
 header {
@@ -62,7 +67,7 @@ a:hover {
 }
 
 .hero-text h1 {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   margin-bottom: 1em;
 }
 
@@ -75,20 +80,14 @@ main {
 
 /* pop-customers section */
 
-.pop-customers h2 {
-  font-size: 2.3rem;
-  padding: 0.8em;
-}
-
 .all-customers {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 2em auto;
 }
 
 figure img {
-  width: 20vw;
+  width: 15vw;
   height: 25vh;
   border-radius: 20%;
   padding: 0.5em;
@@ -100,4 +99,24 @@ figcaption {
   font-style: italic;
   padding: 0.5em;
   border-radius: 10%;
+}
+
+/* review */
+
+.review {
+  margin: 4em 6em;
+}
+
+.review-text {
+  background-color: hsl(96, 33%, 81%);
+  font-style: italic;
+  font-size: 1.5rem;
+  padding: 1em;
+}
+
+.review img {
+  width: 9vw;
+  height: 18vh;
+  border-radius: 50%;
+  margin-top: 1em;
 }
