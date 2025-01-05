@@ -4,7 +4,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* body */
+
+body {
   font-family: "Roboto", sans-serif;
+  color: hsl(12, 9%, 22%);
 }
 
 /* Nav Bar */
@@ -35,7 +41,7 @@ a {
 }
 
 a:visited {
-  color: hsl(13, 8%, 35%);
+  color: hsl(120, 17%, 34%);
 }
 
 a:hover {
@@ -45,9 +51,7 @@ a:hover {
 /* Hero */
 
 .hero {
-  color: hsl(12, 9%, 22%);
   padding: 4em;
-
   display: flex;
   justify-content: space-around;
 }
@@ -58,6 +62,42 @@ a:hover {
 }
 
 .hero-text h1 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   margin-bottom: 1em;
+}
+
+/* main */
+
+main {
+  background-color: #e9edc9;
+  text-align: center;
+}
+
+/* pop-customers section */
+
+.pop-customers h2 {
+  font-size: 2.3rem;
+  padding: 0.8em;
+}
+
+.all-customers {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2em auto;
+}
+
+figure img {
+  width: 20vw;
+  height: 25vh;
+  border-radius: 20%;
+  padding: 0.5em;
+}
+
+figcaption {
+  background-color: hsl(54, 26%, 76%);
+  font-size: 1.2rem;
+  font-style: italic;
+  padding: 0.5em;
+  border-radius: 10%;
 }
