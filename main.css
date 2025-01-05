@@ -21,10 +21,10 @@ h2 {
 /* Nav Bar */
 
 header {
-  background-color: #67735a;
+  background-color: #434b3a;
   color: whitesmoke;
   font-size: 1.2rem;
-  padding: 0.8em 4em;
+  padding: 0em 2em;
 }
 
 .navbar {
@@ -64,7 +64,7 @@ a:hover {
 
 .hero-text {
   width: 50%;
-  padding-top: 3em;
+  padding-top: 2em;
 }
 
 .hero-text h1 {
@@ -159,4 +159,12 @@ button:hover {
 
 button:active {
   background-color: #2f6948;
+}
+
+/* footer */
+footer {
+  background-color: #434b3a;
+  color: whitesmoke;
+  text-align: center;
+  padding: 1em;
 }
